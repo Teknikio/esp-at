@@ -54,8 +54,8 @@ static QueueHandle_t esp_at_uart_queue = NULL;
 static bool at_default_flag = false;
 
 #if defined(CONFIG_IDF_TARGET_ESP32)
-#define CONFIG_AT_UART_PORT_TX_PIN_DEFAULT          17
-#define CONFIG_AT_UART_PORT_RX_PIN_DEFAULT          16
+#define CONFIG_AT_UART_PORT_TX_PIN_DEFAULT          1
+#define CONFIG_AT_UART_PORT_RX_PIN_DEFAULT          3
 #define CONFIG_AT_UART_PORT_CTS_PIN_DEFAULT         15
 #define CONFIG_AT_UART_PORT_RTS_PIN_DEFAULT         14
 #ifndef CONFIG_AT_UART_PORT
